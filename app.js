@@ -1,6 +1,6 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/+esm";
 import { CONFIG } from "./config.js";
-var IMG={LOGO:"assets/logo.png",DIR:"assets/directeur.jpg",S1:"assets/salle1.jpg",S2:"assets/salle2.jpg"};
+var IMG={LOGO:"logo.png",DIR:"directeur.jpg",S1:"salle1.jpg",S2:"salle2.jpg"};
 var P={
  menu:'<path d="M4 6h16M4 12h16M4 18h16"/>',x:'<path d="M18 6 6 18M6 6l12 12"/>',
  cap:'<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>',
